@@ -1,0 +1,32 @@
+{
+  "name": "htmljar-cli",
+  "version": "1.0.0",
+  "description": "this prototype htmljar cli",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/syntacstudio/htmljar-cli.git"
+  },
+  "keywords": [
+    "cli",
+    "htmljar",
+    "clicommand"
+  ],
+  "author": "tofikhidayat , syntacstudio",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/syntacstudio/htmljar-cli/issues"
+  },
+  "homepage": "https://github.com/syntacstudio/htmljar-cli#readme",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "command-line-args": "^5.1.1",
+    "figlet": "^1.2.3"
+  },
+  "bin": {
+    "hajar": "./main.js"
+  }
+}
